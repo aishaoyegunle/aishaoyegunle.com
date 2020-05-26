@@ -5,8 +5,7 @@
     </div>
     <main class="main">
       <h1>Hello,&#128075;&#127996;</h1>
-      <h1>I'm Aisha</h1>
-      <h1>I am a Frontend Engineer</h1>
+      <h1>I'm Aisha, a Frontend Engineer.</h1>
       <h1>
         <span class="typing-words">
           <span>I love exploring...</span>
@@ -58,17 +57,12 @@ export default {
         margin-top: $base-gap * 5;
       }
       &:nth-child(2) {
-        width: 23rem;
+        margin-top: $base-gap;
+        width: 70rem;
         opacity: 0;
         animation: type2 2s steps(40, end) 2s forwards;
       }
       &:nth-child(3) {
-        margin-top: $base-gap;
-        width: 57rem;
-        opacity: 0;
-        animation: type2 4s steps(40, end) 4s forwards;
-      }
-      &:nth-child(4) {
         border-bottom: none;
       }
     }
@@ -84,14 +78,14 @@ export default {
 
       &:nth-child(1) {
         max-width: 38rem;
-        animation: typing 0.7s steps(40) 8s, typingReverse 0.7s steps(40) 8.7s,
-          blink-wait 1s step-end 1 9.5s, blink-caret 0.6s step-end infinite;
+        animation: typing 0.7s steps(40) 4.5s, typingReverse 0.7s steps(40) 5.2s,
+          blink-wait 1s step-end 1 6.2s, blink-caret 0.6s step-end infinite;
       }
 
       &:nth-child(2) {
         max-width: 49rem;
-        animation: blink-caret 0.6s step-end 7 10.5s,
-          typing 0.7s steps(40) 10.5s forwards;
+        animation: blink-caret 0.6s step-end 7 7.2s,
+          typing 0.7s steps(40) 7.2s forwards;
       }
     }
 
