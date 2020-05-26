@@ -49,18 +49,27 @@ export default {
       letter-spacing: 0.15em;
       border-right: 4px solid #d3d3d3;
       border-bottom: 10px solid #d3d3d3;
-
+      @media only screen and (max-width: $md) {
+        font-size: $base-font;
+        border-bottom: 5px solid #d3d3d3;
+      }
       &:nth-child(1) {
         width: 20rem;
         animation: type1 2s steps(40, end) forwards;
         margin-bottom: $base-gap * 2;
         margin-top: $base-gap * 5;
+        @media only screen and (max-width: $md) {
+          width: 5rem;
+        }
       }
       &:nth-child(2) {
         margin-top: $base-gap;
         width: 70rem;
         opacity: 0;
         animation: type2 2s steps(40, end) 2s forwards;
+        @media only screen and (max-width: $md) {
+          width: 18rem;
+        }
       }
       &:nth-child(3) {
         border-bottom: none;
@@ -80,12 +89,17 @@ export default {
         max-width: 38rem;
         animation: typing 0.7s steps(40) 4.5s, typingReverse 0.7s steps(40) 5.2s,
           blink-wait 1s step-end 1 6.2s, blink-caret 0.6s step-end infinite;
+        @media only screen and (max-width: $md) {
+          max-width: 12rem;
+        }
       }
-
       &:nth-child(2) {
         max-width: 49rem;
         animation: blink-caret 0.6s step-end 7 7.2s,
           typing 0.7s steps(40) 7.2s forwards;
+        @media only screen and (max-width: $md) {
+          max-width: 13rem;
+        }
       }
     }
 
