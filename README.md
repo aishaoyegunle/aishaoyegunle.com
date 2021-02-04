@@ -1,4 +1,4 @@
-# aishaoyegunle.com
+# aishaoyegunle.dev
 
 ## Project setup
 ```
