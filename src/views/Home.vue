@@ -9,7 +9,7 @@
       <h1>
         <span class="typing-words">
           <span>I love exploring...</span>
-          <span>I love building stuffs...</span>
+          <span>I love building stuff...</span>
         </span>
       </h1>
     </main>
